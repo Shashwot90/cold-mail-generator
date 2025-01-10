@@ -11,3 +11,4 @@ class Chain:
     def __init__(self):
         self.llm = ChatGroq(temperature=0, groq_api_key=os.getenv("GROQ_API_KEY"), model_name="llama-3.1-70b-versatile")
 
+        def extract_jobs(self, cleaned_text):
