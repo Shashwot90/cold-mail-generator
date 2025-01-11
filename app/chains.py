@@ -15,3 +15,4 @@ class Chain:
             prompt_extract = PromptTemplate.from_template(
                 """
                                 ### SCRAPED TEXT FROM WEBSITE:
+                                {page_data}
