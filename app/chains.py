@@ -17,3 +17,4 @@ class Chain:
                                 ### SCRAPED TEXT FROM WEBSITE:
                                 {page_data}
 ### INSTRUCTION:
+The scraped text is from the career's page of a website.
