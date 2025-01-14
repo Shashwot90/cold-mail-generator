@@ -21,3 +21,4 @@ class Chain:
                                 Your job is to extract the job postings and return them in JSON format containing the following keys: `role`, `experience`, `skills` and `description`.
                                 Only return the valid JSON.
 ### VALID JSON (NO PREAMBLE):
+                     """
