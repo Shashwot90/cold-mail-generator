@@ -20,5 +20,7 @@ class Chain:
                                 The scraped text is from the career's page of a website.
                                 Your job is to extract the job postings and return them in JSON format containing the following keys: `role`, `experience`, `skills` and `description`.
                                 Only return the valid JSON.
-### VALID JSON (NO PREAMBLE):
-                     """
+                                ### VALID JSON (NO PREAMBLE):
+                                """
+)
+
