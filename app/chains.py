@@ -22,5 +22,6 @@ class Chain:
                                 Only return the valid JSON.
                                 ### VALID JSON (NO PREAMBLE):
                                 """
-)
+                        )
 
+            chain_extract = prompt_extract | self.llm
