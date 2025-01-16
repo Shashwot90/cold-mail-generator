@@ -25,3 +25,4 @@ class Chain:
                         )
 
             chain_extract = prompt_extract | self.llm
+            res = chain_extract.invoke(input={"page_data": cleaned_text})
