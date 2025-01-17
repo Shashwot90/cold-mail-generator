@@ -28,3 +28,4 @@ class Chain:
             res = chain_extract.invoke(input={"page_data": cleaned_text})
             try:
                 json_parser = JsonOutputParser()
+                res = json_parser.parse(res.content)
