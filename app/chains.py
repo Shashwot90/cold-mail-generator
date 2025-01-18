@@ -30,3 +30,4 @@ class Chain:
                 json_parser = JsonOutputParser()
                 res = json_parser.parse(res.content)
             except OutputParserException:
+                raise OutputParserException("Context too big. Unable to parse jobs.")
