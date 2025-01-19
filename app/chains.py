@@ -34,3 +34,4 @@ class Chain:
             return res if isinstance(res, list) else [res]
 
 
+def write_mail(self, job, links):
