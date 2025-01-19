@@ -31,3 +31,6 @@ class Chain:
                 res = json_parser.parse(res.content)
             except OutputParserException:
                 raise OutputParserException("Context too big. Unable to parse jobs.")
+            return res if isinstance(res, list) else [res]
+
+
