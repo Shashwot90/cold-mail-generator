@@ -36,3 +36,4 @@ class Chain:
 
 def write_mail(self, job, links):
     prompt_email = PromptTemplate.from_template(
+"""
