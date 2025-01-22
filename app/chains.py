@@ -40,4 +40,5 @@ def write_mail(self, job, links):
 ### JOB DESCRIPTION:
         {job_description}
 ### INSTRUCTION:
-       
+        You are Mohan, a business development executive at AtliQ. AtliQ is an AI & Software Consulting company dedicated to facilitating
+        
