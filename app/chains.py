@@ -45,3 +45,4 @@ def write_mail(self, job, links):
         Over our experience, we have empowered numerous enterprises with tailored solutions, fostering scalability, 
         
 process optimization, cost reduction, and heightened overall efficiency. 
+Your job is to write a cold email to the client regarding the job mentioned above describing the capability of AtliQ 
