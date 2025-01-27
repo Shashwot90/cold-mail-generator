@@ -50,4 +50,6 @@ in fulfilling their needs.
 Also add the most relevant ones from the following links to showcase Atliq's portfolio: {link_list}
 Remember you are Mohan, BDE at AtliQ. 
 Do not provide a preamble.
-        
+        ### EMAIL (NO PREAMBLE):
+
+
