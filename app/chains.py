@@ -54,4 +54,5 @@ Do not provide a preamble.
 
         """
    )
+    chain_email = prompt_email | self.llm
 
