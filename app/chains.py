@@ -59,3 +59,5 @@ Do not provide a preamble.
     res = chain_email.invoke({"job_description": str(job), "link_list": links})
     return res.content
 
+
+if __name__ == "__main__":
