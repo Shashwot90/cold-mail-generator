@@ -3,3 +3,4 @@ import chromadb
 import uuid
 
 
+class Portfolio:
