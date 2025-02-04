@@ -10,3 +10,4 @@ class Portfolio:
         self.chroma_client = chromadb.PersistentClient('vectorstore')
         self.collection = self.chroma_client.get_or_create_collection(name="portfolio")
 
+    def load_portfolio(self):
