@@ -12,3 +12,4 @@ class Portfolio:
 
     def load_portfolio(self):
         if not self.collection.count():
+            for _, row in self.data.iterrows():
