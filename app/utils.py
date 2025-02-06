@@ -12,3 +12,5 @@ def clean_text(text):
     # Trim leading and trailing whitespace
     text = text.strip()
     # Remove extra whitespace
+    text = ' '.join(text.split())
+    return text
