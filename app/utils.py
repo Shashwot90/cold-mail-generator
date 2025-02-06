@@ -10,3 +10,5 @@ def clean_text(text):
     # Replace multiple spaces with a single space
     text = re.sub(r'\s{2,}', ' ', text)
     # Trim leading and trailing whitespace
+    text = text.strip()
+    # Remove extra whitespace
