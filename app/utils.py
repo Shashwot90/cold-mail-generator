@@ -8,3 +8,5 @@ def clean_text(text):
     # Remove special characters
     text = re.sub(r'[^a-zA-Z0-9 ]', '', text)
     # Replace multiple spaces with a single space
+    text = re.sub(r'\s{2,}', ' ', text)
+    # Trim leading and trailing whitespace
