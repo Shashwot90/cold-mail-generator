@@ -17,3 +17,4 @@ class Portfolio:
                                     metadatas={"links": row["Links"]},
                                     ids=[str(uuid.uuid4())])
 
+    def query_links(self, skills):
